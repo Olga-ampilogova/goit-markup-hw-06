@@ -10,7 +10,7 @@
 @import './layout/header.css';
 @import './layout/hero-section.css';
 @import './layout/section-description.css';
-@import '/css/layout/team-section.css';
+@import './layout/team-section.css';
 @import './layout/portfolio-section.css';
 @import './layout/footer.css';
 @import './layout/modal-window.css';
