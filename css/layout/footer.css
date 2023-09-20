@@ -154,7 +154,7 @@
         transition: backgound 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .footer-subscribe-button:hover,
+
     .footer-subscribe-button:focus {
         background: var(--OCEAN, #404BBF);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -331,5 +331,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .footer-subscribe-button:hover {
+        background: var(--OCEAN, #404BBF);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .footer-social-link:hover {
+        background-color: #31d0aa;
     }
 }

@@ -277,7 +277,7 @@
     .link-current {
 
         position: relative;
-        color: #404BBF;
+        /* color: #404BBF; */
         display: block;
         font-size: 16px;
         font-weight: 500;

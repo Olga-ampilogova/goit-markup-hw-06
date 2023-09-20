@@ -51,10 +51,10 @@
     }
 
     .team-position {
-        display: flex;
-        flex-direction: row;
+        /* display: flex; */
+        /* flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: center; */
         margin-top: 32px;
 
     }
@@ -151,5 +151,9 @@
 
     .team-list-item {
         width: calc((100% - 72px) / 4);
+    }
+
+    .team-social-link:hover {
+        background-color: #404BBF;
     }
 }
