@@ -6,11 +6,13 @@
 
     .container-team {}
 
+    section {}
+
     .team-title {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 72px;
+        /* margin-bottom: 72px; */
     }
 
     .subtitle {
@@ -38,24 +40,16 @@
 
     .team-list-item {
         justify-content: center;
-        display: block;
-        background-color: #FFFFFF;
-        margin-left: auto;
-        margin-left: auto;
         border-radius: 0px 0px 4px 4px;
         align-items: center;
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
         background: var(--white, #FFF);
-        border-radius: 0px 0px 4px 4px;
-        margin-bottom: 72px;
+        margin-top: 72px;
     }
 
     .team-position {
-        /* display: flex; */
-        /* flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center; */
-        margin-top: 32px;
+        padding-top: 32px;
+        padding-bottom: 32px;
 
     }
 
@@ -67,13 +61,17 @@
     }
 
     .team-name {
-        display: flex;
-        justify-content: center;
-        /* text-align: center; */
+        color: var(--NAVY-BLUE, #2E2F42);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
         margin-bottom: 8px;
     }
 
     .team-text {
+        font-weight: 400;
         text-align: center;
         margin-bottom: 8px;
     }
@@ -81,13 +79,10 @@
     .team-social-list {
         display: flex;
         gap: 24px;
-        margin-top: 8px;
         justify-content: center;
     }
 
-    .team-social-item {
-        margin-bottom: 32px;
-    }
+    .team-social-item {}
 
     .team-social-link {
         display: flex;
@@ -129,15 +124,17 @@
         align-items: center;
         justify-content: center;
         margin: auto;
-
+        gap: 24px;
+        row-gap: 64px;
     }
 
-    .team-list-item {
-        width: calc((100% - 24px) / 2);
-    }
+    .container-team {}
+
+    .team-position {}
+
+    .team-list-item {}
+
 }
-
-
 
 /* Desktop */
 @media screen and (min-width: 1158px) {
@@ -145,11 +142,10 @@
         width: 1158px;
     }
 
-    .team-list {
-        flex-direction: row;
-    }
+    .team-list {}
 
     .team-list-item {
+
         width: calc((100% - 72px) / 4);
     }
 
