@@ -326,8 +326,10 @@
                     <li class="portfol-list-item">
                         <div class="portfolio-overlay-wrapper">
                             <picture>
+                                <source srcset="./images/bank-mobil.jpg 1x, ./images/bankapp@2x.jpg 2x"
+                                    media="(min-width:  1158px) or (min-width:  768px)" width="360" height="300" />
                                 <source srcset="./images/bank-mobil.jpg 1x, ./images/bank-mobil@2x.jpg 2x"
-                                    media="(min-width: 1158px)" width="360" height="300" />
+                                    media="(min-width: 320px)" width="360" height="300" />
                                 <img class="portfol-img" src="./images/banking.jpg" width="360" height="300"
                                     alt="Banking App">
                             </picture>
@@ -349,8 +351,10 @@
 
                         <div class="portfolio-overlay-wrapper">
                             <picture>
+                                <source srcset="./images/cashless.jpg 1x, ./images/cashless@2x.jpg 2x"
+                                    media="(min-width:  1158px)  or (min-width:  768px)" width="360" height="300" />
                                 <source srcset="./images/cashlessmobil.jpg 1x, ./images/cashmobil@2x.jpg 2x"
-                                    media="(min-width: 1158px)" width="360" height="300" />
+                                    media="(min-width:  320px)" width="360" height="300" />
                                 <img class=" portfol-img" src="./images/cashless.jpg" width="360" height="300"
                                     alt="Cashless Payment">
                             </picture>
@@ -370,8 +374,10 @@
                     <li class="portfol-list-item">
                         <div class="portfolio-overlay-wrapper">
                             <picture>
-                                <source srcset="./images/meditation-mobil.jpg 1x, ./images/meditation@2x.jpg 2x"
-                                    media="(min-width: 1158px)" width="360" height="300" />
+                                <source srcset="./images/meditation.jpg 1x, ./images/meditation-desk@2x.jpg 2x"
+                                    media="(min-width:  1158px) or (min-width:  768px)" width="360" height="300" />
+                                <source srcset="./images/meditation-mob.jpg 1x, ./images/meditation-mob@2x.jpg 2x"
+                                    media="(min-width:  320px)" width="360" height="300" />
                                 <img class="portfol-img" src="./images/meditation.jpg" width="360" height="300"
                                     alt="Meditation">
                             </picture>
@@ -386,13 +392,14 @@
                             <h3 class="portfol-img-title">Meditation App</h3>
                             <p class="portfol-text">App</p>
                         </div>
-
                     </li>
                     <li class="portfol-list-item">
                         <div class="portfolio-overlay-wrapper">
                             <picture>
+                                <source srcset="./images/taxi.jpg 1x, ./images/taxi-desk@2x.jpg 2x"
+                                    media="(min-width:  1158px) or (min-width:  768px)" width="360" height="300" />
                                 <source srcset="./images/taxi-mobil.jpg 1x, ./images/taximobil@2x.jpg 2x"
-                                    media="(min-width: 1158px)" width="360" height="300" />
+                                    media="(min-width:  320px)" width="360" height="300" />
                                 <img class="portfol-img" src="./images/taxi.jpg" width="360" height="300"
                                     alt="Taxi Service">
                             </picture>
@@ -409,8 +416,14 @@
 
                     <li class="portfol-list-item">
                         <div class="portfolio-overlay-wrapper">
-                            <img class="portfol-img" src="./images/screen.jpg" width="360" height="300"
-                                alt="Screen Illustrations">
+                            <picture>
+                                <source srcset="./images/screen.jpg 1x, ./images/screen@2x.jpg 2x"
+                                    media="(min-width:  1158px) or (min-width:  768px)" width="360" height="300" />
+                                <source srcset="./images/screen-mobil.jpg 1x, ./images/screen-mobil@2x.jpg 2x"
+                                    media="(min-width:  320px)" width="360" height="300" />
+                                <img class="portfol-img" src="./images/screen.jpg" width="360" height="300"
+                                    alt="Screen Illustrations">
+                            </picture>
                             <p class="portfolio-overlay">14 Stylish and User-Friendly App Design
                                 Concepts ·
                                 Task
@@ -425,8 +438,14 @@
                     </li>
                     <li class="portfol-list-item">
                         <div class="portfolio-overlay-wrapper">
-                            <img class="portfol-img" src="./images/courses.jpg" width="360" height="300"
-                                alt="Online Courses">
+                            <picture>
+                                <source srcset="./images/courses.jpg 1x, ./images/online-desk@2x.jpg 2x"
+                                    media="(min-width:  1158px) or (min-width:  768px)" width="360" height="300" />
+                                <source srcset="./images/online-mobile.jpg 1x, ./images/online-mobil@2x.jpg 2x"
+                                    media="(min-width:  320px)" width="360" height="300" />
+                                <img class="portfol-img" src="./images/courses.jpg" width="360" height="300"
+                                    alt="Online Courses">
+                            </picture>
                             <p class="portfolio-overlay">14 Stylish and User-Friendly App Design Concepts ·
                                 Task
                                 Manager App · Calorie Tracker
@@ -581,7 +600,8 @@
                     <use href="./images/modal.svg#icon-close-black"></use>
                 </svg>
             </button>
-            <div class="burger-menu-nav">
+            <nav class="burger-nav">
+                <!-- <div class="burger-menu-nav"> -->
                 <ul class="burger-menu-list list">
                     <li class="burger-menu-item">
                         <a href="" class="link-current burger-menu-link link">Studio</a>
@@ -592,57 +612,50 @@
                         <a href="" class="burger-menu-link link">Contacts</a>
                     </li>
                 </ul>
-            </div>
-            <div class="burger-menu-address">
-                <ul class="burger-menu-address-list list">
-                    <li class="burger-menu-address-item">
-                        <a href="tel:+110001111111" class="burger-menu-address-link tel link">+11 (000) 111-11-11</a>
-                    </li>
-                    <li class="burger-menu-address-item">
-                        <a href="mailto:info@devstudio.com" class="burger-menu-address-link link">info@devstudio.com</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="burger-menu-social">
-                <ul class="burger-menu-social-list list">
-                    <li class="burger-menu-social-item">
-                        <a href="" class="burger-menu-social-link">
-                            <svg class="burger-menu-social-link-icon" width="24" height="24"
-                                aria-label="icon-instagram-2-1">
-                                <use href="./images/icons.svg#icon-instagram-2-1">
-                                </use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="burger-menu-social-item">
-                        <a href="" class="burger-menu-social-link">
-                            <svg class="burger-menu-social-link-icon" width="24" height="24"
-                                aria-label="icon-twitter-1-1">
-                                <use href="./images/icons.svg#icon-twitter-1-1">
-                                </use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="burger-menu-social-item">
-                        <a href="" class="burger-menu-social-link">
-                            <svg class="burger-menu-social-link-icon" width="24" height="24"
-                                aria-label="icon-facebook-1-1">
-                                <use href="./images/icons.svg#icon-facebook-1-1">
-                                </use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="burger-menu-social-item">
-                        <a href="" class="burger-menu-social-link">
-                            <svg class="burger-menu-social-link-icon" width="24" height="24"
-                                aria-label="icon-linkedin-1-1">
-                                <use href="./images/icons.svg#icon-linkedin-1-1"></use>
+            </nav>
+            <ul class="burger-menu-address-list list">
+                <li class="burger-menu-address-item">
+                    <a href="tel:+110001111111" class="burger-menu-address-link tel link">+11 (000) 111-11-11</a>
+                </li>
+                <li class="burger-menu-address-item">
+                    <a href="mailto:info@devstudio.com" class="burger-menu-address-link link">info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="burger-menu-social-list list">
+                <li class="burger-menu-social-item">
+                    <a href="" class="burger-menu-social-link">
+                        <svg class="burger-menu-social-link-icon" width="24" height="24"
+                            aria-label="icon-instagram-2-1">
+                            <use href="./images/icons.svg#icon-instagram-2-1">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="burger-menu-social-item">
+                    <a href="" class="burger-menu-social-link">
+                        <svg class="burger-menu-social-link-icon" width="24" height="24" aria-label="icon-twitter-1-1">
+                            <use href="./images/icons.svg#icon-twitter-1-1">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="burger-menu-social-item">
+                    <a href="" class="burger-menu-social-link">
+                        <svg class="burger-menu-social-link-icon" width="24" height="24" aria-label="icon-facebook-1-1">
+                            <use href="./images/icons.svg#icon-facebook-1-1">
+                            </use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="burger-menu-social-item">
+                    <a href="" class="burger-menu-social-link">
+                        <svg class="burger-menu-social-link-icon" width="24" height="24" aria-label="icon-linkedin-1-1">
+                            <use href="./images/icons.svg#icon-linkedin-1-1"></use>
 
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 </body>
