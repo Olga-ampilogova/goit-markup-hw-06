@@ -90,6 +90,7 @@
     .portfol-list {
         flex-direction: row;
         flex-wrap: wrap;
+        row-gap: 72px;
     }
 
     .portfol-list-item {
